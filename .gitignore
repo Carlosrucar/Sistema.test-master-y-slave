@@ -1,0 +1,4 @@
+.vagrant/
+
+#para ignorar ficheros buckup
+*~
