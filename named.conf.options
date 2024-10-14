@@ -1,0 +1,19 @@
+options {
+    directory "/var/cache/bind";
+
+    // Escuchar solo en IPv4
+    listen-on { 127.0.0.1; 192.168.57.103; };
+
+    // Establecer dnssec-validation a yes
+    dnssec-validation yes;
+
+    // Permitir consultas recursivas solo a las redes específicas
+    allow-recursion { 127.0.0.0/8; 192.168.57.0/24; };
+
+    // Reenviar consultas no autorizadas
+    forwarders {
+        208.67.222.222;
+    };
+    forward only;
+};
+
