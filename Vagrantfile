@@ -12,4 +12,14 @@ Vagrant.configure("2") do |config|
     SHELL
   end
 
+  config.vm.define "tierra" do |tierra|
+    tierra.vm.box = "debian/bullseye64"
+    tierra.vm.hostname = "tierra.sistema.test"
+    tierra.vm.network "private_network", ip: "192.168.57.103"
+    tierra.vm.provision "shell", inline: <<-SHELL
+      apt-get update
+      echo "Configurando Tierra"
+    SHELL
+  end
+
 
