@@ -2,7 +2,7 @@
 zone "sistema.test" {
     type master;
     file "/etc/bind/db.sistema.test";
-    allow-transfer { 192.168.57.102; }; 
+    allow-transfer { 192.168.57.102; };  
 };
 
 zone "57.168.192.in-addr.arpa" {
@@ -10,4 +10,3 @@ zone "57.168.192.in-addr.arpa" {
     file "/etc/bind/db.192";
     allow-transfer { 192.168.57.102; };
 };
-
