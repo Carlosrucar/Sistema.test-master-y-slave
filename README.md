@@ -80,16 +80,20 @@ Una vez configurado el sistema, debes comprobar los siguientes puntos:
 ![Registros A](./tipoA.png)
 ![Registros A](./tipoA2.png.png)
 - Resolución inversa de direcciones IP.
-![Registros Inversa](./vagrantfileimagen.png)
+![Registros Inversa](inversa1.png)
+![Registros Inversa](inversa2.png)
 - Resolución de los alias ns1.sistema.test y ns2.sistema.test.
-![Alias](./vagrantfileimagen.png)
+![Alias](./ns1,ns2.png)
 - Consulta de servidores NS de sistema.test, que debe devolver los servidores tierra.sistema.test y venus.sistema.test.
-![Servidores NS](./vagrantfileimagen.png)
+![Servidores NS](./NS1.png)
+![Servidores NS](./NS2.png)
 - Consulta de servidores MX de sistema.test.
-![Registros A](./vagrantfileimagen.png)
+![MX](./MX1.png)
+![MX](./MX2.png)
 - Verificación de la transferencia de zona entre el servidor maestro y el esclavo (consulta AXFR).
-![Registros A](./vagrantfileimagen.png)
+![AXFR](./axfr.png)
 - Comprobación de que tanto el maestro como el esclavo responden correctamente a las mismas consultas.
-![Registros A](./vagrantfileimagen.png)
+![maestro-esclavo](./mestro-esclavo1.png)
+![maestro-esclavo](./mestro-esclavo2.png)
 
 
