@@ -96,4 +96,16 @@ Una vez configurado el sistema, debes comprobar los siguientes puntos:
 ![maestro-esclavo](./mestro-esclavo1.png)
 ![maestro-esclavo](./maestro-esclavo2.png)
 
+## Pruebas con `test.bat`
 
+El archivo `test.bat` realiza una serie de consultas para verificar que el sistema DNS maestro-esclavo está funcionando correctamente. Estas pruebas incluyen:
+
+### 1. Comprobación de Registros A
+
+Esta prueba verifica que los registros tipo A están correctamente configurados y resuelven los nombres de los equipos a sus direcciones IP respectivas.
+
+![prueba1](./prueba1.png)
+![prueba2](./prueba2.png)
+![prueba3](./Prueba3.png)
+![prueba4](./Prueba4.png)
+![prueba5](./Prueba5.png)
