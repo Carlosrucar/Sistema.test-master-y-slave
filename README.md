@@ -83,7 +83,6 @@ Una vez configurado el sistema, debes comprobar los siguientes puntos:
 ![Registros Inversa](inversa1.png)
 ![Registros Inversa](inversa2.png)
 - Resolución de los alias ns1.sistema.test y ns2.sistema.test.
-
 ![Alias](./ns1,ns2.png)
 - Consulta de servidores NS de sistema.test, que debe devolver los servidores tierra.sistema.test y venus.sistema.test.
 ![Servidores NS](./NS1.png)
