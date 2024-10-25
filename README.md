@@ -78,7 +78,7 @@ Una vez configurado el sistema, debes comprobar los siguientes puntos:
 
 - Resolución correcta de registros tipo A.
 ![Registros A](./tipoA.png)
-![Registros A](./tipoA2.png.png)
+![Registros A](./tipoA2.png)
 - Resolución inversa de direcciones IP.
 ![Registros Inversa](inversa1.png)
 ![Registros Inversa](inversa2.png)
