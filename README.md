@@ -1,4 +1,6 @@
 
+# Carlos Rodríguez Ruiz
+
 # Proyecto DNS Maestro-Esclavo
 
 Este proyecto consiste en la configuración de un sistema DNS maestro-esclavo utilizando máquinas virtuales. A continuación, se describen los principales archivos de configuración, los objetivos y las verificaciones necesarias para completar la práctica.
@@ -75,11 +77,19 @@ La infraestructura de las máquinas virtuales se gestiona mediante un archivo Va
 Una vez configurado el sistema, debes comprobar los siguientes puntos:
 
 - Resolución correcta de registros tipo A.
+![Registros A](./tipoA.png)
+![Registros A](./tipoA2.png.png)
 - Resolución inversa de direcciones IP.
+![Registros Inversa](./vagrantfileimagen.png)
 - Resolución de los alias ns1.sistema.test y ns2.sistema.test.
+![Alias](./vagrantfileimagen.png)
 - Consulta de servidores NS de sistema.test, que debe devolver los servidores tierra.sistema.test y venus.sistema.test.
+![Servidores NS](./vagrantfileimagen.png)
 - Consulta de servidores MX de sistema.test.
+![Registros A](./vagrantfileimagen.png)
 - Verificación de la transferencia de zona entre el servidor maestro y el esclavo (consulta AXFR).
+![Registros A](./vagrantfileimagen.png)
 - Comprobación de que tanto el maestro como el esclavo responden correctamente a las mismas consultas.
+![Registros A](./vagrantfileimagen.png)
 
 
